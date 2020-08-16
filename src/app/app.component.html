@@ -16,7 +16,7 @@
 <div class="container">
   <h2>Pricing Table</h2>
     
-  <button>Add Plan</button>
+  <button (click)="adduser()">Add Plan</button>
   <br>
   <table  class="table table-bordered table-striped">
     <thead>
@@ -43,7 +43,7 @@
         <td>{{user.planstatus}}</td>
         <td>{{user.createdate}}</td>
         <td>{{user.updatedate}}</td>
-        <td><button>Edit</button>&nbsp;&nbsp;<button>Delete</button></td>
+        <td><button (click)="edituser(edit)">Edit</button>&nbsp;&nbsp;<button (click)="deleteuser()">Delete</button></td>
         
       </tr>
       

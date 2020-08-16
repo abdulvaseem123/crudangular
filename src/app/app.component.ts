@@ -23,5 +23,15 @@ export class AppComponent {
           }
       )
     }
+    edituser=(edit)=>{
+      console.log("edittttttttttttttt");
+    }
+    deleteuser=()=>{
+      console.log("deleteeeeeeeeeeeeeeeeee");
+    }
+    adduser=()=>{
+      console.log("adddddddddddddddddddddddddd");
+    }
+
   
 }
